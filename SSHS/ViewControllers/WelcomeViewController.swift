@@ -67,7 +67,7 @@ class WelcomeViewController: UIViewController {
             Label.text = "Notifications Enabled!"
             
             // create the alert
-                      let alert = UIAlertController(title: "Alert", message: "Notifications have been enabled :))))))", preferredStyle: UIAlertController.Style.alert)
+                      let alert = UIAlertController(title: "Success!", message: "Notifications have been set to remind you to check your RTI on wednesdays", preferredStyle: UIAlertController.Style.alert)
 
                       // add an action (button)
                       alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
