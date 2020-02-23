@@ -20,10 +20,6 @@ class ReportViewController: UIViewController {
     @IBOutlet weak var misuse: UIButton!
 
 
-    
-    
-    
-    
     @IBAction func newfeatures (_ sender: Any) {
         showmailview1()
     }
