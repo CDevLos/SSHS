@@ -1,0 +1,144 @@
+
+/* Class = "UILabel"; text = "Error"; ObjectID = "0yh-nS-nxv"; */
+"0yh-nS-nxv.text" = "Error";
+
+/* Class = "UIButton"; normalTitle = "Suggest New Features"; ObjectID = "1hm-Bl-a3T"; */
+"1hm-Bl-a3T.normalTitle" = "Sugiere nuevas funciones";
+
+/* Class = "UIBarButtonItem"; title = "Report"; ObjectID = "3Pe-7y-ZN3"; */
+"3Pe-7y-ZN3.title" = "Reporta";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "5CV-K1-N5f"; */
+"5CV-K1-N5f.normalTitle" = "Continuar";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "5HA-oE-IOa"; */
+"5HA-oE-IOa.title" = "Atras";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "6XD-36-Utq"; */
+"6XD-36-Utq.normalTitle" = "Iniciar sesión";
+
+/* Class = "UIButton"; normalTitle = "Report Bugs"; ObjectID = "6vD-V2-E3F"; */
+"6vD-V2-E3F.normalTitle" = "Reporta Errores";
+
+/* Class = "UINavigationItem"; title = "Log In"; ObjectID = "835-T5-BZa"; */
+"835-T5-BZa.title" = "Iniciar sesión";
+
+/* Class = "UIBarButtonItem"; title = "Credits"; ObjectID = "8sT-c7-qz7"; */
+"8sT-c7-qz7.title" = "Creditos";
+
+/* Class = "UINavigationItem"; title = "Report"; ObjectID = "AIa-cN-lP1"; */
+"AIa-cN-lP1.title" = "Reporta";
+
+/* Class = "UIButton"; normalTitle = "Barcode"; ObjectID = "Aax-eG-pPc"; */
+"Aax-eG-pPc.normalTitle" = "Codigo";
+
+/* Class = "UINavigationItem"; title = "Encore"; ObjectID = "GVj-SO-56P"; */
+"GVj-SO-56P.title" = "Encore";
+
+/* Class = "UITextField"; placeholder = "Class"; ObjectID = "Hf8-7I-3G9"; */
+"Hf8-7I-3G9.placeholder" = "Clase";
+
+/* Class = "UIButton"; normalTitle = "Save Info"; ObjectID = "HtB-9g-Fdp"; */
+"HtB-9g-Fdp.normalTitle" = "Guardar";
+
+/* Class = "UISegmentedControl"; ISv-Yu-vj4.segmentTitles[0] = "Off"; ObjectID = "ISv-Yu-vj4"; */
+"ISv-Yu-vj4.segmentTitles[0]" = "Apagado";
+
+/* Class = "UISegmentedControl"; ISv-Yu-vj4.segmentTitles[1] = "On"; ObjectID = "ISv-Yu-vj4"; */
+"ISv-Yu-vj4.segmentTitles[1]" = "Prendido";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "LB7-VX-rf9"; */
+"LB7-VX-rf9.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "LNh-ID-TCK"; */
+"LNh-ID-TCK.placeholder" = "Nombre";
+
+/* Class = "UIButton"; normalTitle = "eSchool"; ObjectID = "Nnz-Yj-Sgp"; */
+"Nnz-Yj-Sgp.normalTitle" = "eSchool";
+
+/* Class = "UIBarButtonItem"; title = "Sign In"; ObjectID = "ONw-Sg-KKS"; */
+"ONw-Sg-KKS.title" = "Registración";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Oii-Et-TEg"; */
+"Oii-Et-TEg.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "2019-20"; ObjectID = "PaH-yP-ZVm"; */
+"PaH-yP-ZVm.text" = "2019-20";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "RBj-E2-wQD"; */
+"RBj-E2-wQD.normalTitle" = "Registrar";
+
+/* Class = "UINavigationItem"; title = "Credits"; ObjectID = "Xga-08-rUT"; */
+"Xga-08-rUT.title" = "Creditos";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "a07-Oo-AC3"; */
+"a07-Oo-AC3.normalTitle" = "Registrar";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "aOc-8d-NcH"; */
+"aOc-8d-NcH.placeholder" = "Contraseña";
+
+/* Class = "UINavigationItem"; title = "Sign Up"; ObjectID = "c7B-dG-9cj"; */
+"c7B-dG-9cj.title" = "Registración";
+
+/* Class = "UINavigationItem"; title = "eSchool"; ObjectID = "dRi-gI-m5Q"; */
+"dRi-gI-m5Q.title" = "eSchool";
+
+/* Class = "UILabel"; text = "Error"; ObjectID = "eZk-gb-A58"; */
+"eZk-gb-A58.text" = "Error";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "f2O-ye-23T"; */
+"f2O-ye-23T.normalTitle" = "Iniciar sesión";
+
+/* Class = "UIButton"; normalTitle = "myID"; ObjectID = "fAL-x9-69X"; */
+"fAL-x9-69X.normalTitle" = "Identificación";
+
+/* Class = "UIButton"; normalTitle = "Picture"; ObjectID = "h4C-Wh-Y7y"; */
+"h4C-Wh-Y7y.normalTitle" = "Fot";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "lez-dj-eNa"; */
+"lez-dj-eNa.placeholder" = "Apellido";
+
+/* Class = "UILabel"; text = "SSHS"; ObjectID = "lfO-2U-pu9"; */
+"lfO-2U-pu9.text" = "SSHS";
+
+/* Class = "UIButton"; normalTitle = "Encore"; ObjectID = "mND-dP-PKb"; */
+"mND-dP-PKb.normalTitle" = "Encore";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "nFI-mS-k4V"; */
+"nFI-mS-k4V.normalTitle" = "Continuar";
+
+/* Class = "UILabel"; text = "Note: This is not the same as your school login"; ObjectID = "nFo-cV-mwn"; */
+"nFo-cV-mwn.text" = "Nota: Estas credeciales no son iguales a las de inicio de sesión de tu escuela";
+
+/* Class = "UIButton"; normalTitle = "Report Misuse"; ObjectID = "nkg-RX-H2l"; */
+"nkg-RX-H2l.normalTitle" = "Reporta Mal Uso";
+
+/* Class = "UINavigationItem"; title = "myID"; ObjectID = "oqv-D1-wLp"; */
+"oqv-D1-wLp.title" = "Identificación";
+
+/* Class = "UILabel"; text = "Carlos Hernandez\t\tDeveloper\nGrant Berrios \t\t\tVisuals\nMrs. Amos\t\t\t\tGraphics\nMrs. Carter\t\t\t\tSupport"; ObjectID = "qWh-oR-UYx"; */
+"qWh-oR-UYx.text" = "Carlos Hernandez\t\tDesarrollador\nGrant Berrios \t\t\tVisuales\nMrs. Amos\t\t\t\tGraficos\nMrs. Carter\t\t\t\tSoporte";
+
+/* Class = "UINavigationItem"; title = "Welcome"; ObjectID = "r6G-et-7LG"; */
+"r6G-et-7LG.title" = "Bienvenido";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "vDR-GN-4se"; */
+"vDR-GN-4se.title" = "Atras";
+
+/* Class = "UILabel"; text = "Notifications Disabled!"; ObjectID = "wO4-uI-VbA"; */
+"wO4-uI-VbA.text" = "Notificaciones Apagadas!";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "xNC-JO-hJF"; */
+"xNC-JO-hJF.placeholder" = "Contraseña";
+
+/* Class = "UIBarButtonItem"; title = "Report"; ObjectID = "yDs-g8-dHX"; */
+"yDs-g8-dHX.title" = "Reporta";
+
+/* Class = "UILabel"; text = "App Version 1.0 "; ObjectID = "yLn-o6-rpT"; */
+"yLn-o6-rpT.text" = "Version 1.0 ";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "ysC-Tq-j5D"; */
+"ysC-Tq-j5D.placeholder" = "Nombre";
+
+/* Class = "UINavigationItem"; title = "Sign in"; ObjectID = "zal-ln-nvL"; */
+"zal-ln-nvL.title" = "Iniciar sesión";

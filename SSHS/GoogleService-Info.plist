@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>219169350938-o63tbiet31j5ubblca5hd01ncmprc8ue.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.219169350938-o63tbiet31j5ubblca5hd01ncmprc8ue</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAixUry0TKF4Uu1n5rYAh0NJkY4RNtlvKQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>219169350938</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>xyz.students.SSHS</string>
+	<key>PROJECT_ID</key>
+	<string>student-portal-23347</string>
+	<key>STORAGE_BUCKET</key>
+	<string>student-portal-23347.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:219169350938:ios:fa29ce5ff2ff9b75bd78a3</string>
+	<key>DATABASE_URL</key>
+	<string>https://student-portal-23347.firebaseio.com</string>
+</dict>
+</plist>
