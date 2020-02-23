@@ -11,11 +11,9 @@ import FirebaseFirestore
 import FirebaseAuth
 import LocalAuthentication
 
-
 class LogInViewController: UIViewController, UITextFieldDelegate {
 
     let mycontext:LAContext = LAContext()
-    
     
     @IBOutlet weak var EmailTextField: UITextField!
     @IBOutlet weak var PasswordTextField: UITextField!
@@ -26,8 +24,6 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var ErrorLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var TraditionalSignin: UIButton!
-    
-   
                 
     func handleFaceID(){
         let context:LAContext = LAContext()
@@ -41,10 +37,6 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
                    print("error")
                 }
             }
-            
-            
-            
-            
             
         }else{
             let alert = UIAlertController(title: "Error", message: "Device not compatible with this authetication method", preferredStyle: UIAlertController.Style.alert)
@@ -66,13 +58,9 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
         LogInButton.isHidden = false
         messageLabel.isHidden = false
         TraditionalSignin.isHidden = true
-        
-        
     }
     
-    
-    
-    
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         setupElements()

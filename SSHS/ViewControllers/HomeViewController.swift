@@ -18,11 +18,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var SignInButton: UIButton!
     @IBOutlet weak var vid: UIView!
     @IBOutlet weak var stack: UIStackView!
-    @IBOutlet weak var LocalAuth: UIButton!
-    
 
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupElements()
@@ -49,8 +45,6 @@ class HomeViewController: UIViewController {
         safariVC.preferredControlTintColor = .white
         present(safariVC, animated: true)
     }
-    
-    
     
     func setupElements(){
         Utilities.styleFilledButton(LogInButton)

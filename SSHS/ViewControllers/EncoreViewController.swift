@@ -14,14 +14,10 @@ class EncoreViewController: UIViewController {
 
     @IBOutlet weak var encoreView: WKWebView!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         let request = URLRequest(url: URL(string: "https://go.siloamschools.com/es/")!)
                encoreView.load(request)
         // Do any additional setup after loading the view.
     }
-    
-
 }

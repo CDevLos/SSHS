@@ -13,14 +13,10 @@ class eSchoolViewController: UIViewController {
 
     @IBOutlet weak var eSchoolView: WKWebView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         let request = URLRequest(url: URL(string: "https://hac40.esp.k12.ar.us/HomeAccess40/Account/LogOn?ReturnUrl=%2FHomeAccess40")!)
                     eSchoolView.load(request)
         // Do any additional setup after loading the view.
     }
-    
-
-
 }

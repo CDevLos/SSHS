@@ -31,8 +31,6 @@ let imagepicker = UIImagePickerController()
         static let AddPictureButton = "picturebutton"
         static let AddBarcodeButton = "barcodebutton"
         static let SaveInfo = "savebutton"
-        
-    
     }
   
     override func viewDidLoad() {
@@ -163,12 +161,6 @@ checkPhotoLibraryPermission()
         }
     }
     
-    
-    
-    
-    
-    
-    
     func checkforname(){
         let name = defaults.value(forKey: Keys.Name) as? String ?? ""
         let classe = defaults.value(forKey: Keys.Class) as? String ?? ""
@@ -270,9 +262,7 @@ checkPhotoLibraryPermission()
                 print("No Image Found")
             }
         }
-    
-    
-    
+
     // end of non-extension Functions
 }
 extension IDViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
@@ -280,11 +270,8 @@ extension IDViewController: UIImagePickerControllerDelegate, UINavigationControl
         if AddPictureButton.isEnabled == true {
             if let image = info[UIImagePickerController.InfoKey.editedImage] as? UIImage {
                 Picture.image = image
-           
             }
-           
         }
-     
         if AddBarcodeButton.isEnabled == false {
             if let image = info[UIImagePickerController.InfoKey.editedImage] as? UIImage {
                 Barcode.image = image

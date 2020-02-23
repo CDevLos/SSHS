@@ -63,12 +63,8 @@ class WelcomeViewController: UIViewController {
         saveStylePreferences()
         switch  SegmentBar.selectedSegmentIndex {
         case 1:
-           
-            
+                
             Label.text = "Notifications Enabled!"
-            
-            
-            
             
             // create the alert
                       let alert = UIAlertController(title: "Alert", message: "Notifications have been enabled :))))))", preferredStyle: UIAlertController.Style.alert)
@@ -80,11 +76,6 @@ class WelcomeViewController: UIViewController {
 
                       // show the alert
                       self.present(alert, animated: true, completion: nil)
-            
-            
-            
-            
-            
             
             let content = UNMutableNotificationContent()
             content.title = "Reminder:"
@@ -107,8 +98,6 @@ class WelcomeViewController: UIViewController {
                     print("Alert Set Up")
                 }
             }
-            
-    
             
         case 0:
             Label.text = "Notifications Disabled!"
@@ -138,12 +127,9 @@ override func viewDidLoad() {
         Utilities.styleFilledButton(Encore)
         Utilities.styleFilledButton(eSchool)
         Utilities.styleFilledButton(myID)
-        // Do any additional setup after loading the view.
-        
+          
     }
-    
-    
-    
+   
     func saveStylePreferences() {
         
         defaults.set(NotifsEnabled, forKey: Keys.notifsEnabled)
