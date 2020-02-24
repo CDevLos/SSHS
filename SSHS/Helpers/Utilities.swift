@@ -1,9 +1,9 @@
 //
 //  Utilities.swift
-//  customauth
+//  Student Portal.
 //
-//  Created by Christopher Ching on 2019-05-09.
-//  Copyright © 2019 Christopher Ching. All rights reserved.
+//  Created by Carlos Hernandez
+//  Copyright © 2019 Student Portal. All rights reserved.
 //
 
 import Foundation

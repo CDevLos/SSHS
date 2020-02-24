@@ -3,7 +3,7 @@
 //  SSHS
 //
 //  Created by Carlos Hernandez on 2/9/20.
-//  Copyright © 2020 test. All rights reserved.
+//  Copyright © 2020 Student Portal. All rights reserved.
 //
 
 import UIKit

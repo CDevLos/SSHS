@@ -3,12 +3,12 @@
 //  SSHS
 //
 //  Created by Carlos Hernandez on 2/9/20.
-//  Copyright © 2020 test. All rights reserved.
+//  Copyright © 2020 Student Portal. All rights reserved.
 //
 
 import UIKit
 import UserNotifications
-import SafariServices
+import LocalAuthentication
 
 class WelcomeViewController: UIViewController {
     @IBOutlet weak var Encore: UIButton!
@@ -16,8 +16,9 @@ class WelcomeViewController: UIViewController {
     @IBOutlet weak var myID: UIButton!
     @IBOutlet weak var SegmentBar: UISegmentedControl!
     @IBOutlet weak var Label: UILabel!
+    @IBOutlet weak var myStack: UIStackView!
     
-    
+    let mycontext = LAContext()
     
     let defaults = UserDefaults.standard
     var NotifsEnabled = false
@@ -25,38 +26,6 @@ class WelcomeViewController: UIViewController {
     struct Keys {
         static let notifsEnabled = "prendida"
     }
-    
-    
-    
-    @IBAction func ecnore(_ sender: Any) {
-        /*
-        guard let url = URL(string: "https://go.siloamschools.com/es/")
-                 
-                 else {
-                     return
-             }
-             let safariVC = SFSafariViewController(url: url)
-             safariVC.preferredBarTintColor = .black
-             safariVC.preferredControlTintColor = .white
-             present(safariVC, animated: true)
-        */
-        
-    }
-    
-    @IBAction func encore(_ sender: Any) {
-  /*  guard let url = URL(string: "https://hac40.esp.k12.ar.us/HomeAccess40/Account/LogOn?ReturnUrl=%2FHomeAccess40")
-             
-             else {
-                 return
-         }
-         let safariVC2 = SFSafariViewController(url: url)
-         safariVC2.preferredBarTintColor = .black
-         safariVC2.preferredControlTintColor = .white
-         present(safariVC2, animated: true)
-    
-    */
-    }
-   
     
     @IBAction func BarChanged(_ sender: Any) {
         NotifsEnabled = (sender as AnyObject).selectedSegmentIndex == 1
@@ -71,8 +40,7 @@ class WelcomeViewController: UIViewController {
 
                       // add an action (button)
                       alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-                      alert.addAction(UIAlertAction(title: "OK (but in bold)", style: UIAlertAction.Style.cancel, handler: nil))
-                      alert.addAction(UIAlertAction(title: "OK (but in red)", style: UIAlertAction.Style.destructive, handler: nil))
+                      
 
                       // show the alert
                       self.present(alert, animated: true, completion: nil)
@@ -105,12 +73,10 @@ class WelcomeViewController: UIViewController {
             print("Alerts Cancelled")
            
             // create the alert
-            let alert = UIAlertController(title: "Alert", message: "Notifications have been disabled :(", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Alert", message: "Notifications have been disabled please make sure to turn them back for a more enjoyable experience!", preferredStyle: UIAlertController.Style.alert)
 
             // add an action (button)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-            alert.addAction(UIAlertAction(title: "OK (but in bold)", style: UIAlertAction.Style.cancel, handler: nil))
-            alert.addAction(UIAlertAction(title: "OK (but in red)", style: UIAlertAction.Style.destructive, handler: nil))
 
             // show the alert
             self.present(alert, animated: true, completion: nil)
@@ -118,7 +84,6 @@ class WelcomeViewController: UIViewController {
         default:
             break;
         }
-
         }
     
 override func viewDidLoad() {
@@ -127,13 +92,18 @@ override func viewDidLoad() {
         Utilities.styleFilledButton(Encore)
         Utilities.styleFilledButton(eSchool)
         Utilities.styleFilledButton(myID)
-          
+          if mycontext.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: nil)
+          {
+              if mycontext.biometryType == .faceID {
+                myStack.spacing = 70
+              } else if mycontext.biometryType == .touchID{
+                myStack.spacing = 30
+              }
+          }
     }
    
     func saveStylePreferences() {
-        
         defaults.set(NotifsEnabled, forKey: Keys.notifsEnabled)
-        
     }
     
     func CheckForStylePrefs(){
@@ -142,11 +112,8 @@ override func viewDidLoad() {
             NotifsEnabled = true
             SegmentBar.selectedSegmentIndex = 1
             Label.text = "Notifications Enabled!"
-            
         } else{
             Label.text = "Notifications Disabled!"
-            
         }
     }
-
 }

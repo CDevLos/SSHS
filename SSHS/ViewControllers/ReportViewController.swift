@@ -3,7 +3,7 @@
 //  SSHS
 //
 //  Created by Carlos Hernandez on 2/19/20.
-//  Copyright © 2020 test. All rights reserved.
+//  Copyright © 2020 Student Portal. All rights reserved.
 //
 
 import UIKit
@@ -143,7 +143,7 @@ extension ReportViewController: MFMailComposeViewControllerDelegate{
             
             print("Sucess")
             controller.dismiss(animated: true, completion: nil)
-            let alert = UIAlertController(title: "Success!", message: "Message Sent, we value your feedback in order to provide the best user experience!", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Success!", message: "Message Sent: We value your feedback, thank you for allowing us to provide the best user experience!", preferredStyle: UIAlertController.Style.alert)
             
             // add an action (button)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
