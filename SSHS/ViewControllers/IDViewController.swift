@@ -96,6 +96,38 @@ checkPhotoLibraryPermission()
         
     }
     
+    // Done Checked.
+    func animateTextField(textField: UITextField, up: Bool)
+    {
+        let movementDistance:CGFloat = -140
+        let movementDuration: Double = 0.3
+
+        var movement:CGFloat = 0
+        if up
+        {
+            movement = movementDistance
+        }
+        else
+        {
+            movement = -movementDistance
+        }
+        UIView.beginAnimations("animateTextField", context: nil)
+        UIView.setAnimationBeginsFromCurrentState(true)
+        UIView.setAnimationDuration(movementDuration)
+        self.view.frame = self.view.frame.offsetBy(dx: 0, dy: movement)
+        UIView.commitAnimations()
+    } //Compatability Check on iPhone 11 Pro, Check smaller phones next
+
+    func textFieldDidBeginEditing(_ textField: UITextField)
+    {
+        self.animateTextField(textField: textField, up:true)
+    }
+
+    func textFieldDidEndEditing(_ textField: UITextField)
+    {
+        self.animateTextField(textField: textField, up:false)
+    }
+    
     func checkPhotoLibraryPermission() {
         let status = PHPhotoLibrary.authorizationStatus()
         switch status {

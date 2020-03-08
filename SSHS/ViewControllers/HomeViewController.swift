@@ -36,7 +36,7 @@ override func viewDidAppear(_ animated: Bool) {
     
     
     func whatsNewIfNeeded(){
-        let items = [WhatsNew.Item(title: "Login with Email", subtitle: "Create a new account with your school email and password.", image: UIImage(named: "key")), WhatsNew.Item(title: "FaceID", subtitle: "Log in with FaceID for quicker access.", image: UIImage(named: "faceidglyph")), WhatsNew.Item(title: "IDView", subtitle: "Access your ID within the app", image: UIImage(named: "as")), WhatsNew.Item(title: "EncoreViewer", subtitle: "Access you EncoreViewer within the app.", image: UIImage(named: "worldglyph")), WhatsNew.Item(title: "eSchool", subtitle: "Access your grades within the app.", image: UIImage(named: "aplus"))]
+        let items = [WhatsNew.Item(title: "Login with Email", subtitle: "Create a new account with your school email and password.", image: UIImage(named: "key")), WhatsNew.Item(title: "FaceID", subtitle: "Log in with FaceID for quicker access.", image: UIImage(named: "faceidglyph")), WhatsNew.Item(title: "IDView", subtitle: "Access your ID within the app", image: UIImage(named: "as")), WhatsNew.Item(title: "EncoreViewer", subtitle: "Access you 3EncoreViewer within the app.", image: UIImage(named: "worldglyph")), WhatsNew.Item(title: "eSchool", subtitle: "Access your grades within the app.", image: UIImage(named: "aplus"))]
                
                let theme = WhatsNewViewController.Theme{ configuration in
                    configuration.apply(animation: .fade)
@@ -94,6 +94,12 @@ override func viewDidAppear(_ animated: Bool) {
     }
 
     func setupVideo(){
+        //Experimental Check on real device when time permits.. :((
+        let audioSession = AVAudioSession.sharedInstance()
+        if audioSession.isOtherAudioPlaying {
+            _ = try? audioSession.setCategory(AVAudioSession.Category.ambient, options: AVAudioSession.CategoryOptions.mixWithOthers)
+        } // end of experimental code :))
+        
       let bundlePath = Bundle.main.path(forResource: "introvideo", ofType: "mp4")
         guard bundlePath != nil else {
             return
