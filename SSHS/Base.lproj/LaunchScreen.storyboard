@@ -16,35 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="sshslogo" translatesAutoresizingMaskIntoConstraints="NO" id="SD8-kb-MM0">
-                                <rect key="frame" x="78" y="264" width="220" height="182"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a74c706e-0593-4e0e-8f51-d157b0102aa0" translatesAutoresizingMaskIntoConstraints="NO" id="UGR-nw-oBC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Portal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKv-za-eOL">
-                                <rect key="frame" x="65" y="602" width="246" height="48"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.31483535620000003" green="0.0" blue="0.076252140410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="SKv-za-eOL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="D4P-la-U6b"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SD8-kb-MM0" secondAttribute="trailing" constant="77" id="Gno-GG-OXp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SKv-za-eOL" secondAttribute="bottom" constant="128" id="VHC-OF-7n0"/>
-                            <constraint firstItem="SD8-kb-MM0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="78" id="fBa-rD-ls8"/>
-                            <constraint firstItem="SKv-za-eOL" firstAttribute="top" secondItem="SD8-kb-MM0" secondAttribute="bottom" constant="156" id="ooh-es-SiV"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SKv-za-eOL" secondAttribute="trailing" constant="64" id="u7X-P4-HLy"/>
-                            <constraint firstItem="SD8-kb-MM0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="220" id="vQR-a8-FrR"/>
+                            <constraint firstItem="UGR-nw-oBC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-44" id="H98-9X-ESF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UGR-nw-oBC" secondAttribute="trailing" id="R9t-zU-sig"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UGR-nw-oBC" secondAttribute="bottom" constant="-34" id="Tch-2f-IPZ"/>
+                            <constraint firstItem="UGR-nw-oBC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ajX-U0-sJR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
         </scene>
     </scenes>
     <resources>
-        <image name="sshslogo" width="1182" height="1113"/>
+        <image name="a74c706e-0593-4e0e-8f51-d157b0102aa0" width="1125" height="2436"/>
     </resources>
 </document>
